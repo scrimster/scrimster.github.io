@@ -1,0 +1,34 @@
+{
+  "site": {
+    "title": "sebscr.im - Retro Document Playground",
+    "description": "A nostalgic 90s Word document experience with AI assistant",
+    "author": "Sebastian",
+    "version": "1.0.0"
+  },
+  "theme": {
+    "primary_color": "#000080",
+    "background_color": "#c0c0c0", 
+    "window_background": "#ffffff",
+    "clippy_color": "#ffff00"
+  },
+  "assistant": {
+    "name": "Clippy",
+    "personality": "helpful",
+    "appearance_delay": 3000,
+    "random_appearance_interval": 30000,
+    "auto_hide_delay": 8000,
+    "sound_effects": true
+  },
+  "features": {
+    "easter_eggs": true,
+    "konami_code": true,
+    "glitch_effects": true,
+    "typing_sounds": false,
+    "retro_cursor": true
+  },
+  "content": {
+    "default_document": "90s_welcome",
+    "editable": true,
+    "auto_save": false
+  }
+}
