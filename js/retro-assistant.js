@@ -3,14 +3,14 @@ class RetroAssistant {
   constructor() {
     this.isVisible = false;
     this.messages = [
-      "✨ Welcome to the Vista Aero x 90s web fusion! 🌈",
-      "Loving those warm orange-tan vibes! 🧡",
-      "The dithered textures are absolutely *chef's kiss* 👌",
-      "This frosted glass meets crunchy pixels aesthetic is fire! 🔥",
-      "Ready to surf the information superhighway in style? 🏄‍♀️",
-      "That neon pop against the warm tans... *perfectection* ✨",
-      "Click those glassy buttons for maximum satisfaction! 💫",
-      "I'm getting major Geocities energy and I'm here for it! 🌟"
+      "Hi! I'm your retro assistant! 📎",
+      "Need help navigating this nostalgic playground?",
+      "I see you're working on something interesting!",
+      "Would you like me to help you format your document?",
+      "This reminds me of the good old days of computing!",
+      "Click anywhere on the document to start typing!",
+      "Pro tip: Try the different toolbar buttons!",
+      "I'm here whenever you need assistance! 🤖"
     ];
     this.currentMessageIndex = 0;
     this.init();
@@ -118,11 +118,10 @@ class RetroAssistant {
 
   respondToToolClick(button) {
     const responses = [
-      "✨ That glass morph effect though! *chef's kiss* 👌",
-      "Loving how that button just *melted* under your cursor! 🫠",
-      "The way these neon accents pop against the tan... perfection! 💫",
-      "Vista vibes with 90s attitude - you've got taste! 🎨",
-      "That satisfying click with the dithered edge effect! 🔥"
+      "Nice choice! That tool will help your document look professional!",
+      "I see you're getting creative with the formatting!",
+      "That's a handy tool! Just like the old days!",
+      "Excellent selection! Your document is coming together nicely!"
     ];
     
     if (Math.random() > 0.6) {
@@ -344,48 +343,23 @@ class EasterEggs {
     const paper = document.querySelector('.paper');
     if (paper && paper.textContent.trim() === '') {
       paper.innerHTML = `
-        <h1 class="neon-text">Welcome to the Cyber-Aesthetic Zone! �✨</h1>
+        <h1>Welcome to the Information Superhighway! 🌐</h1>
+        <p>Greetings, fellow cyber-surfer! You've entered a radical zone where pixels are chunky, 
+        sounds are bleepy, and everything is totally tubular! 🏄‍♂️</p>
         
-        <p>Greetings, digital wanderer! You've entered a <strong>radical fusion zone</strong> where 
-        <span style="color: var(--electric-aqua); font-weight: bold;">Vista's frosted glass elegance</span> 
-        meets <span style="color: var(--neon-pink); font-weight: bold;">90s web rebellion</span> 
-        in perfect harmony! �</p>
-        
-        <h2>🎯 Aesthetic Elements</h2>
-        <p>This nostalgic playground blends the best of both worlds:</p>
+        <p>This nostalgic playground captures the essence of computing in the 1990s, when:</p>
         <ul>
-          <li>🪟 <strong>Aero Glass Windows</strong> with that signature blur and transparency</li>
-          <li>🧡 <strong>Warm Paper Tones</strong> - goodbye harsh white, hello cozy orange-tan!</li>
-          <li>⚡ <strong>Neon Pop Accents</strong> in electric aqua, hot pink, and acid green</li>
-          <li>� <strong>Crunchy Dithered Textures</strong> for that authentic low-res web feel</li>
-          <li>✨ <strong>Smooth Gradients</strong> with pixelated edge effects</li>
-          <li>🎵 <strong>Retro Sound Effects</strong> that'll make your ears nostalgic</li>
+          <li>📼 We saved files on floppy disks</li>
+          <li>🔊 Dial-up modems sang their digital songs</li>
+          <li>📎 Office assistants helped us write letters</li>
+          <li>🖥️ CRT monitors ruled supreme</li>
+          <li>💿 CD-ROMs were cutting-edge technology</li>
         </ul>
         
-        <h3>🎮 Interactive Magic</h3>
-        <p>Every click, hover, and interaction has been crafted with love:</p>
-        <ul>
-          <li>🖱️ Buttons that <em>satisfyingly</em> respond with glass morphing</li>
-          <li>🌊 Smooth animations with that signature ease-in-out flow</li>
-          <li>💫 Neon glows that pulse and breathe with life</li>
-          <li>🎨 Context-aware color shifts and micro-interactions</li>
-        </ul>
+        <p><em>Click anywhere to start your retro computing experience!</em></p>
         
-        <p><strong>Pro Tips:</strong></p>
-        <p>🔥 Try hovering over the toolbar buttons for that <em>premium glass morph</em><br>
-        🌈 Click around and watch the neon accents dance<br>
-        ⌨️ Type anywhere on this warm-toned paper for instant satisfaction<br>
-        🎵 Listen for those crispy retro sound effects</p>
-        
-        <div style="margin: 24px 0; padding: 16px; background: rgba(255,60,172,0.1); border-radius: 8px; border-left: 4px solid var(--neon-pink);">
-          <p style="margin: 0;"><strong>✨ Easter Egg Alert:</strong> Try the classic 
-          <span class="glitch" data-text="↑↑↓↓←→←→BA">Konami Code</span> for a 
-          <span style="color: var(--electric-aqua);">rainbow surprise</span>! 🌈</p>
-        </div>
-        
-        <p style="text-align: center; margin-top: 32px; font-style: italic; color: var(--vista-blue);">
-          <em>"Where Windows Vista meets Geocities vibes – it's giving main character energy!" ✨💅</em>
-        </p>
+        <p><strong>Pro tip:</strong> Try typing something, clicking the toolbar buttons, 
+        or just wait for your helpful assistant to appear! 🤖</p>
       `;
     }
   }

@@ -1,40 +1,29 @@
-# ✨ Vista Aero x 90s Web Fusion Playground 🌈
+# 📎 Retro 90s Word Document Playground
 
-A stunning blend of Windows Vista's frosted glass elegance and 90s web rebellion! This site combines the sophisticated Aero glass aesthetic with warm orange-tan textures, neon pop colors, and deliciously crunchy dithered details, all powered by a loveable AI assistant.
+A nostalgic throwback to the golden age of computing! This site recreates the classic Windows 95/98 Word document experience with a modern twist, featuring a loveable Clippy-like AI assistant.
 
-## 🎨 Aesthetic Features
+## 🎨 Features
 
-### Vista Aero Glass Elements
-- **Frosted Glass Windows**: Authentic blur effects with transparency layers
-- **Smooth Gradients**: Vista-inspired button styling with glass morphing
-- **Sophisticated Typography**: Frutiger-inspired Segoe UI with proper letter spacing
-- **Professional Layout**: Clean window chrome with modern spacing
-
-### 90s Web Rebellion
-- **Warm Paper Tones**: Cozy orange-tan backgrounds (#FFF4E1) instead of harsh white
-- **Neon Pop Colors**: Electric aqua (#00E5FF), hot pink (#FF3CAC), acid green (#7EFF5F)
-- **Crunchy Textures**: Dithered patterns and pixelated edge effects
-- **Retro Interactions**: Satisfying button presses with visual feedback
-
-### Fusion Magic
-- **Textured Glass**: Frosted effects with subtle noise overlays
-- **Gradient Borders**: Smooth Vista gradients with 90s dither edges
-- **Warm Lighting**: Orange-tan base tones with cool glass highlights
-- **Responsive Glow**: Neon accents that pulse and react to interactions
+### Visual Design
+- **Authentic 90s UI**: Complete Windows 95-style window frame with title bar, menu bar, and toolbar
+- **High Contrast Theme**: Classic gray color scheme with proper button borders and shadows
+- **Paper Document View**: White "paper" background with proper margins and typography
+- **Retro Typography**: Mix of MS Sans Serif (UI) and Times New Roman (document content)
+- **Pixel-Perfect Details**: Inset/outset borders, proper button states, and classic scrollbars
 
 ### Interactive Elements
-- **AI Assistant**: Enhanced Clippy-like helper with Vista glass styling and 90s personality
-- **Glass Morph Buttons**: Satisfying interactions with smooth animations and neon highlights
-- **Editable Document**: Warm-toned paper background perfect for creativity
-- **Responsive UI**: Hover effects that blend glass elegance with pixel crunch
-- **Smart Feedback**: Context-aware responses celebrating the aesthetic fusion
+- **Clippy-like Assistant**: AI-powered helper that appears randomly with tips and encouragement
+- **Functional Toolbar**: Buttons provide visual feedback and trigger assistant responses
+- **Editable Document**: Click anywhere on the paper to start typing
+- **Menu System**: Hover effects and click responses on all menu items
+- **Window Controls**: Minimize, maximize, and close buttons with appropriate feedback
 
 ### Special Features
-- **Dithered Animations**: Smooth Vista transitions with pixelated 90s edge effects
-- **Neon Sound Effects**: Retro bleeps and bloops with modern audio processing
-- **Easter Eggs**: Konami code activation with rainbow mode transformation
-- **Texture Layering**: Multiple noise patterns creating depth and authenticity
-- **Responsive Nostalgia**: Scales beautifully while maintaining the fusion aesthetic
+- **Sound Effects**: Retro bleeps and bloops for various interactions
+- **Easter Eggs**: Hidden Konami code activation and random glitch effects
+- **Smart Assistant**: Context-aware responses based on user actions
+- **Auto-hide/Show**: Assistant appears during inactivity and responds to user behavior
+- **Responsive Nostalgia**: Adapts to different screen sizes while maintaining retro feel
 
 ## 📁 Project Structure
 
